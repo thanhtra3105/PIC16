@@ -1,0 +1,157 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"26 E:\PIC16F8xx\SERVO.X\newmain.c
+[v _TM0_setup TM0_setup `(v  1 e 1 0 ]
+"40
+[v _IRS IRS `II(v  1 e 1 0 ]
+"49
+[v _map map `(i  1 e 2 0 ]
+"58
+[v _SERVO_write SERVO_write `(v  1 e 1 0 ]
+"74
+[v _main main `(v  1 e 1 0 ]
+"59 D:/Program(x86)/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f887.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+"352
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1602
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"3900
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"4053
+[v _PS0 PS0 `VEb  1 e 0 @1032 ]
+"4056
+[v _PS1 PS1 `VEb  1 e 0 @1033 ]
+"4059
+[v _PS2 PS2 `VEb  1 e 0 @1034 ]
+"4062
+[v _PSA PSA `VEb  1 e 0 @1035 ]
+"4320
+[v _T0CS T0CS `VEb  1 e 0 @1037 ]
+"4323
+[v _T0IE T0IE `VEb  1 e 0 @93 ]
+"4326
+[v _T0IF T0IF `VEb  1 e 0 @90 ]
+"4329
+[v _T0SE T0SE `VEb  1 e 0 @1036 ]
+"25 E:\PIC16F8xx\SERVO.X\newmain.c
+[v _count count `i  1 e 2 0 ]
+"74
+[v _main main `(v  1 e 1 0 ]
+{
+"78
+[v main@t t `i  1 a 2 70 ]
+"84
+} 0
+"49
+[v _map map `(i  1 e 2 0 ]
+{
+[v map@value value `i  1 p 2 68 ]
+"57
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 6 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 2 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 4 ]
+"53
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 9 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 8 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 60 ]
+"70
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 34 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 27 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 32 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 39 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 38 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 31 ]
+"8
+[v ___fldiv@a a `d  1 p 4 14 ]
+[v ___fldiv@b b `d  1 p 4 18 ]
+"185
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 59 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 58 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 57 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 56 ]
+"10
+[v ___fladd@b b `d  1 p 4 40 ]
+[v ___fladd@a a `d  1 p 4 44 ]
+"237
+} 0
+"26 E:\PIC16F8xx\SERVO.X\newmain.c
+[v _TM0_setup TM0_setup `(v  1 e 1 0 ]
+{
+"38
+} 0
+"58
+[v _SERVO_write SERVO_write `(v  1 e 1 0 ]
+{
+[v SERVO_write@tog tog `i  1 p 2 2 ]
+"72
+} 0
+"40
+[v _IRS IRS `II(v  1 e 1 0 ]
+{
+"48
+} 0

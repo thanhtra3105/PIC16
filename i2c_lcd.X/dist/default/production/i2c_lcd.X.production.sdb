@@ -1,0 +1,307 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"14 E:\PIC16F8xx\i2c_lcd.X/lcd_8bit_1.h
+[v _lcd_command lcd_command `(v  1 e 1 0 ]
+"23
+[v _lcd_data lcd_data `(v  1 e 1 0 ]
+"32
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"43
+[v _lcd_string lcd_string `(v  1 e 1 0 ]
+"50
+[v _lcd_number lcd_number `(v  1 e 1 0 ]
+"73
+[v _lcd_setCursor lcd_setCursor `(v  1 e 1 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"56 E:\PIC16F8xx\i2c_lcd.X\newmain.c
+[v _i2c_init i2c_init `(v  1 e 1 0 ]
+"69
+[v _i2c_start i2c_start `(v  1 e 1 0 ]
+"77
+[v _i2c_stop i2c_stop `(v  1 e 1 0 ]
+"85
+[v _i2c_write i2c_write `(uc  1 e 1 0 ]
+"96
+[v _i2c_read i2c_read `(uc  1 e 1 0 ]
+"119
+[v _i2c_repeat_start i2c_repeat_start `(v  1 e 1 0 ]
+"127
+[v _My_I2C_Init My_I2C_Init `(v  1 e 1 0 ]
+"132
+[v _I2C_Write I2C_Write `(v  1 e 1 0 ]
+"143
+[v _I2C_Read I2C_Read `(v  1 e 1 0 ]
+"168
+[v _I2C_LCD_FlushVal I2C_LCD_FlushVal `(v  1 s 1 I2C_LCD_FlushVal ]
+"217
+[v _I2C_LCD_Write_4bit I2C_LCD_Write_4bit `(v  1 s 1 I2C_LCD_Write_4bit ]
+"252
+[v _LCD_WaitBusy LCD_WaitBusy `(v  1 e 1 0 ]
+"282
+[v _I2C_LCD_WriteCmd I2C_LCD_WriteCmd `(v  1 s 1 I2C_LCD_WriteCmd ]
+"296
+[v _LCD_Write_Chr LCD_Write_Chr `(v  1 e 1 0 ]
+"363
+[v _ds1307_init ds1307_init `(v  1 e 1 0 ]
+"371
+[v _Decimal_To_BCD Decimal_To_BCD `(uc  1 e 1 0 ]
+"376
+[v _BCD_To_Decimal BCD_To_Decimal `(uc  1 e 1 0 ]
+"394
+[v _i2c_readTime i2c_readTime `(v  1 e 1 0 ]
+"467
+[v _main main `(v  1 e 1 0 ]
+[s S22 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"307 D:/Program(x86)/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f887.h
+[u S31 . 1 `S22 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES31  1 e 1 @7 ]
+"352
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+[s S97 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"553
+[u S105 . 1 `S97 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES105  1 e 1 @12 ]
+"843
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"850
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+[s S50 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1557
+[u S59 . 1 `S50 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES59  1 e 1 @135 ]
+"1602
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+[s S76 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"1996
+[u S85 . 1 `S76 1 . 1 0 ]
+[v _SSPCON2bits SSPCON2bits `VES85  1 e 1 @145 ]
+"2048
+[v _SSPADD SSPADD `VEuc  1 e 1 @147 ]
+"4461
+[v _TRISC3 TRISC3 `VEb  1 e 0 @1083 ]
+"4464
+[v _TRISC4 TRISC4 `VEb  1 e 0 @1084 ]
+"42 E:\PIC16F8xx\i2c_lcd.X\newmain.c
+[v _second second `uc  1 e 1 0 ]
+"43
+[v _minute minute `uc  1 e 1 0 ]
+"44
+[v _hour hour `uc  1 e 1 0 ]
+"45
+[v _weekDay weekDay `uc  1 e 1 0 ]
+"46
+[v _day day `uc  1 e 1 0 ]
+"47
+[v _month month `uc  1 e 1 0 ]
+"48
+[v _year year `uc  1 e 1 0 ]
+"155
+[v _u8LCD_Buff u8LCD_Buff `[8]uc  1 s 8 u8LCD_Buff ]
+"156
+[v _u8LcdTmp u8LcdTmp `uc  1 s 1 u8LcdTmp ]
+"467
+[v _main main `(v  1 e 1 0 ]
+{
+"518
+} 0
+"43 E:\PIC16F8xx\i2c_lcd.X/lcd_8bit_1.h
+[v _lcd_string lcd_string `(v  1 e 1 0 ]
+{
+[v lcd_string@string_data string_data `*.24uc  1 a 1 wreg ]
+"44
+[v lcd_string@i i `i  1 a 2 3 ]
+"43
+[v lcd_string@string_data string_data `*.24uc  1 a 1 wreg ]
+[v lcd_string@string_data string_data `*.24uc  1 a 1 2 ]
+"48
+} 0
+"73
+[v _lcd_setCursor lcd_setCursor `(v  1 e 1 0 ]
+{
+[v lcd_setCursor@x x `uc  1 a 1 wreg ]
+[v lcd_setCursor@x x `uc  1 a 1 wreg ]
+[v lcd_setCursor@y y `uc  1 p 1 2 ]
+"75
+[v lcd_setCursor@x x `uc  1 a 1 3 ]
+"85
+} 0
+"50
+[v _lcd_number lcd_number `(v  1 e 1 0 ]
+{
+"57
+[v lcd_number@a a `[16]i  1 a 32 0 ]
+"58
+[v lcd_number@count count `i  1 a 2 34 ]
+"56
+[v lcd_number@temp temp `ui  1 a 2 32 ]
+"50
+[v lcd_number@num num `ui  1 p 2 7 ]
+"71
+} 0
+"23
+[v _lcd_data lcd_data `(v  1 e 1 0 ]
+{
+[v lcd_data@Data Data `uc  1 a 1 wreg ]
+[v lcd_data@Data Data `uc  1 a 1 wreg ]
+[v lcd_data@Data Data `uc  1 a 1 1 ]
+"30
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 4 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 0 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 2 ]
+"25
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"30
+} 0
+"32 E:\PIC16F8xx\i2c_lcd.X/lcd_8bit_1.h
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"41
+} 0
+"14
+[v _lcd_command lcd_command `(v  1 e 1 0 ]
+{
+[v lcd_command@cmd cmd `uc  1 a 1 wreg ]
+[v lcd_command@cmd cmd `uc  1 a 1 wreg ]
+[v lcd_command@cmd cmd `uc  1 a 1 1 ]
+"21
+} 0
+"394 E:\PIC16F8xx\i2c_lcd.X\newmain.c
+[v _i2c_readTime i2c_readTime `(v  1 e 1 0 ]
+{
+"465
+} 0
+"119
+[v _i2c_repeat_start i2c_repeat_start `(v  1 e 1 0 ]
+{
+"125
+} 0
+"96
+[v _i2c_read i2c_read `(uc  1 e 1 0 ]
+{
+[v i2c_read@u8Ack u8Ack `uc  1 a 1 wreg ]
+"97
+[v i2c_read@tmp tmp `uc  1 a 1 1 ]
+"96
+[v i2c_read@u8Ack u8Ack `uc  1 a 1 wreg ]
+"99
+[v i2c_read@u8Ack u8Ack `uc  1 a 1 0 ]
+"117
+} 0
+"376
+[v _BCD_To_Decimal BCD_To_Decimal `(uc  1 e 1 0 ]
+{
+[v BCD_To_Decimal@number number `uc  1 a 1 wreg ]
+[v BCD_To_Decimal@number number `uc  1 a 1 wreg ]
+"378
+[v BCD_To_Decimal@number number `uc  1 a 1 5 ]
+"379
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+{
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v ___bmul@product product `uc  1 a 1 1 ]
+"4
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+[v ___bmul@multiplicand multiplicand `uc  1 p 1 0 ]
+"6
+[v ___bmul@multiplier multiplier `uc  1 a 1 2 ]
+"51
+} 0
+"363 E:\PIC16F8xx\i2c_lcd.X\newmain.c
+[v _ds1307_init ds1307_init `(v  1 e 1 0 ]
+{
+"370
+} 0
+"85
+[v _i2c_write i2c_write `(uc  1 e 1 0 ]
+{
+[v i2c_write@u8Data u8Data `uc  1 a 1 wreg ]
+[v i2c_write@u8Data u8Data `uc  1 a 1 wreg ]
+"87
+[v i2c_write@u8Data u8Data `uc  1 a 1 0 ]
+"94
+} 0
+"77
+[v _i2c_stop i2c_stop `(v  1 e 1 0 ]
+{
+"83
+} 0
+"69
+[v _i2c_start i2c_start `(v  1 e 1 0 ]
+{
+"75
+} 0
+"56
+[v _i2c_init i2c_init `(v  1 e 1 0 ]
+{
+"67
+} 0

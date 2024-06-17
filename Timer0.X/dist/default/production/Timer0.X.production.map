@@ -1,0 +1,307 @@
+Microchip MPLAB XC8 Compiler V2.46
+
+Linker command line:
+
+-W-3 \
+  --edf=C:\Program Files\Microchip\xc8\v2.46\pic\dat\20240104201356_en.msgs \
+  -cn -h+dist/default/production\Timer0.X.production.sym \
+  --cmf=dist/default/production\Timer0.X.production.cmf -z -Q16F877A \
+  -oC:\Users\Admin\AppData\Local\Temp\xcAsg8s.\driver_tmp_3.o \
+  --defsym=__MPLAB_BUILD=1 --fixupoverflow=error \
+  -Mdist/default/production/Timer0.X.production.map \
+  --md=C:\Users\Admin\AppData\Local\Temp\xcAsg8s.\driver_tmp_0.dat -E1 \
+  -ver=XC8 Compiler --acfsm=1493 -ACODE=00h-07FFhx4 -ASTRCODE=00h-01FFFh \
+  -ASTRING=00h-0FFhx32 -ACONST=00h-0FFhx32 -AENTRY=00h-0FFhx32 \
+  -ACOMMON=070h-07Fh -ABANK0=020h-06Fh -ABANK1=0A0h-0EFh \
+  -ABANK2=0110h-016Fh -ABANK3=0190h-01EFh \
+  -ARAM=020h-06Fh,0A0h-0EFh,0110h-016Fh,0190h-01EFh \
+  -AABS1=020h-07Fh,0A0h-0EFh,0110h-016Fh,0190h-01EFh -ASFR0=00h-01Fh \
+  -ASFR1=080h-09Fh -ASFR2=0100h-010Fh -ASFR3=0180h-018Fh \
+  -ACONFIG=02007h-02007h -DCONFIG=2 -AIDLOC=02000h-02003h -DIDLOC=2 \
+  -AEEDATA=00h-0FFh/02100h -peeprom_data=EEDATA -DEEDATA=2 -DCODE=2 \
+  -DSTRCODE=2 -DSTRING=2 -DCONST=2 -DENTRY=2 \
+  -preset_vec=00h,intentry=04h,sivt,init,end_init -ppowerup=CODE \
+  -pcinit=CODE -pfunctab=ENTRY -k \
+  C:\Users\Admin\AppData\Local\Temp\xcAsg8s.\driver_tmp_12.o \
+  dist/default/production\Timer0.X.production.o 
+
+Object code version is 3.11
+
+Machine type is 16F877A
+
+
+
+                Name                               Link     Load   Length Selector   Space Scale
+C:\Users\Admin\AppData\Local\Temp\xcAsg8s.\driver_tmp_12.o
+                end_init                              C        C        3        8       0
+                reset_vec                             0        0        3        0       0
+                config                             2007     2007        1        0       4
+dist/default/production\Timer0.X.production.o
+                cinit                                 F        F        8        8       0
+                intentry                              4        4        8        8       0
+                config                             2007     2007        1        0       4
+                text3                                17       17       5A        8       0
+                text2                                A5       A5        F        8       0
+                text1                                8C       8C       19        8       0
+                maintext                             71       71       1B        8       0
+                cstackCOMMON                         74       74        4       70       1
+                bssCOMMON                            70       70        4       70       1
+
+TOTAL           Name                               Link     Load   Length     Space
+        CLASS   CODE           
+                end_init                              C        C        3         0
+                cinit                                 F        F        8         0
+                intentry                              4        4        8         0
+                reset_vec                             0        0        3         0
+                text3                                17       17       5A         0
+                text2                                A5       A5        F         0
+                text1                                8C       8C       19         0
+                maintext                             71       71       1B         0
+
+        CLASS   STRCODE        
+
+        CLASS   STRING         
+
+        CLASS   CONST          
+
+        CLASS   ENTRY          
+
+        CLASS   COMMON         
+                cstackCOMMON                         74       74        4         1
+                bssCOMMON                            70       70        4         1
+
+        CLASS   BANK0          
+
+        CLASS   BANK1          
+
+        CLASS   BANK2          
+
+        CLASS   BANK3          
+
+        CLASS   RAM            
+
+        CLASS   ABS1           
+                abs_s1                               7E       7E        2         1
+
+        CLASS   SFR0           
+
+        CLASS   SFR1           
+
+        CLASS   SFR2           
+
+        CLASS   SFR3           
+
+        CLASS   CONFIG         
+                config                             2007     2007        1         4
+
+        CLASS   IDLOC          
+
+        CLASS   EEDATA         
+
+        CLASS   HEAP           
+
+        CLASS   STACK          
+
+
+
+SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class     Delta
+
+                reset_vec                      000000  000003  000003         0       0  CODE        2
+                intentry                       000004  0000B0  0000B4         8       0  CODE        2
+                bssCOMMON                      000070  000008  000078        70       1  COMMON      1
+
+
+UNUSED ADDRESS RANGES
+
+        Name                Unused          Largest block    Delta
+        BANK0            0020-006F             50           1
+        BANK1            00A0-00EF             50           1
+        BANK2            0110-016F             60           1
+        BANK3            0190-01EF             60           1
+        CODE             0003-0003              1           2
+                         00B4-1FFF            800
+        COMMON           0078-007D              6           1
+        CONST            0003-0003              1           2
+                         00B4-1FFF            100
+        EEDATA           2100-21FF            100           2
+        ENTRY            0003-0003              1           2
+                         00B4-1FFF            100
+        IDLOC            2000-2003              4           2
+        RAM              0020-006F             50           1
+                         00A0-00EF             50
+                         0110-016F             60
+                         0190-01EF             60
+        SFR0             0000-001F             20           1
+        SFR1             0080-009F             20           1
+        SFR2             0100-010F             10           1
+        SFR3             0180-018F             10           1
+        STRCODE          0003-0003              1           2
+                         00B4-1FFF           1F4C
+        STRING           0003-0003              1           2
+                         00B4-1FFF            100
+
+                                  Symbol Table
+
+_GIE                     (abs)        005F
+_INTCONbits              (abs)        000B
+_IRS                     text3        0017
+_OPTION_REGbits          (abs)        0081
+_PEIE                    (abs)        005E
+_PORTB                   (abs)        0006
+_PORTBbits               (abs)        0006
+_T1CONbits               (abs)        0010
+_T2CKPS0                 (abs)        0090
+_T2CKPS1                 (abs)        0091
+_TMR0                    (abs)        0001
+_TMR0IE                  (abs)        005D
+_TMR1H                   (abs)        000F
+_TMR1IE                  (abs)        0460
+_TMR1IF                  (abs)        0060
+_TMR1L                   (abs)        000E
+_TMR1ON                  (abs)        0080
+_TMR2                    (abs)        0011
+_TMR2IE                  (abs)        0461
+_TMR2IF                  (abs)        0061
+_TMR2ON                  (abs)        0092
+_TOUTPS0                 (abs)        0093
+_TOUTPS1                 (abs)        0094
+_TOUTPS2                 (abs)        0095
+_TOUTPS3                 (abs)        0096
+_TRISB                   (abs)        0086
+_Timer2_cfg              text2        00A5
+__H__absolute__          __absolute__ 0000
+__Habs1                  abs1         0000
+__Hbank0                 bank0        0000
+__Hbank1                 bank1        0000
+__Hbank2                 bank2        0000
+__Hbank3                 bank3        0000
+__HbssCOMMON             bssCOMMON    0000
+__Hcinit                 cinit        0017
+__Hclrtext               clrtext      0000
+__Hcode                  code         0000
+__Hcommon                common       0000
+__Hconfig                config       2008
+__HcstackCOMMON          cstackCOMMON 0000
+__Heeprom_data           eeprom_data  0000
+__Hend_init              end_init     000F
+__Hfunctab               functab      0000
+__Hheap                  heap         0000
+__Hinit                  init         000C
+__Hintentry              intentry     000C
+__Hmaintext              maintext     0000
+__Hpowerup               powerup      0000
+__Hram                   ram          0000
+__Hreset_vec             reset_vec    0003
+__Hsfr0                  sfr0         0000
+__Hsfr1                  sfr1         0000
+__Hsfr2                  sfr2         0000
+__Hsfr3                  sfr3         0000
+__Hsivt                  sivt         000C
+__Hspace_0               (abs)        00B4
+__Hspace_1               (abs)        0078
+__Hspace_2               (abs)        0000
+__Hspace_3               (abs)        0000
+__Hspace_4               (abs)        400F
+__Hstack                 stack        0000
+__Hstrings               strings      0000
+__Htext                  text         0000
+__L__absolute__          __absolute__ 0000
+__Labs1                  abs1         0000
+__Lbank0                 bank0        0000
+__Lbank1                 bank1        0000
+__Lbank2                 bank2        0000
+__Lbank3                 bank3        0000
+__LbssCOMMON             bssCOMMON    0000
+__Lcinit                 cinit        000F
+__Lclrtext               clrtext      0000
+__Lcode                  code         0000
+__Lcommon                common       0000
+__Lconfig                config       0000
+__LcstackCOMMON          cstackCOMMON 0000
+__Leeprom_data           eeprom_data  0000
+__Lend_init              end_init     000C
+__Lfunctab               functab      0000
+__Lheap                  heap         0000
+__Linit                  init         000C
+__Lintentry              intentry     0004
+__Lmaintext              maintext     0000
+__Lpowerup               powerup      0000
+__Lram                   ram          0000
+__Lreset_vec             reset_vec    0000
+__Lsfr0                  sfr0         0000
+__Lsfr1                  sfr1         0000
+__Lsfr2                  sfr2         0000
+__Lsfr3                  sfr3         0000
+__Lsivt                  sivt         000C
+__Lspace_0               (abs)        0000
+__Lspace_1               (abs)        0000
+__Lspace_2               (abs)        0000
+__Lspace_3               (abs)        0000
+__Lspace_4               (abs)        0000
+__Lstack                 stack        0000
+__Lstrings               strings      0000
+__Ltext                  text         0000
+__S0                     (abs)        00B4
+__S1                     (abs)        0078
+__S3                     (abs)        0000
+___heap_hi               (abs)        0000
+___heap_lo               (abs)        0000
+___int_sp                stack        0000
+___int_stack_hi          stack        0000
+___int_stack_lo          stack        0000
+___latbits               (abs)        0002
+___sp                    stack        0000
+___stack_hi              stack        0000
+___stack_lo              stack        0000
+___stackhi               (abs)        0000
+___stacklo               (abs)        0000
+__end_of_IRS             text3        0071
+__end_of_Timer2_cfg      text2        00B4
+__end_of__initialization cinit        0013
+__end_of_delay_ms_TMR2   text1        00A5
+__end_of_main            maintext     008C
+__initialization         cinit        000F
+__pbssCOMMON             bssCOMMON    0070
+__pcstackCOMMON          cstackCOMMON 0074
+__pintentry              intentry     0004
+__pmaintext              maintext     0071
+__ptext1                 text1        008C
+__ptext2                 text2        00A5
+__ptext3                 text3        0017
+_count                   bssCOMMON    0072
+_count2                  bssCOMMON    0070
+_delay_ms_TMR2           text1        008C
+_main                    maintext     0071
+btemp                    (abs)        007E
+delay_ms_TMR2@time       cstackCOMMON 0076
+end_of_initialization    cinit        0013
+interrupt_function       intentry     0004
+intlevel0                functab      0000
+intlevel1                functab      0000
+intlevel2                functab      0000
+intlevel3                functab      0000
+intlevel4                functab      0000
+intlevel5                functab      0000
+reset_vec                reset_vec    0000
+saved_w                  (abs)        007E
+start                    init         000C
+start_initialization     cinit        000F
+wtemp0                   (abs)        007E
+
+
+MODULE INFORMATION
+
+Module		Function		Class		Link	Load	Size
+newmain.c
+		_IRS           		CODE           	0017	0000	90
+		_main          		CODE           	0071	0000	27
+		_Timer2_cfg    		CODE           	00A5	0000	15
+		_delay_ms_TMR2 		CODE           	008C	0000	25
+
+newmain.c estimated size: 157
+
+shared
+		__initialization		CODE           	000F	0000	4
+
+shared estimated size: 4
+

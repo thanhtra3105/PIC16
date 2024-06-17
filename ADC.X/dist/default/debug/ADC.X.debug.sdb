@@ -1,0 +1,119 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"16 E:\PIC16F8xx\ADC.X/lcd_8bit.h
+[v _lcd_command lcd_command `(v  1 e 1 0 ]
+"25
+[v _lcd_data lcd_data `(v  1 e 1 0 ]
+"34
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"41
+[v _lcd_string lcd_string `(v  1 e 1 0 ]
+"71
+[v _lcd_setCursor lcd_setCursor `(v  1 e 1 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"21 E:\PIC16F8xx\ADC.X\newmain.c
+[v _ADC_init ADC_init `(v  1 e 1 0 ]
+"38
+[v _main main `(v  1 e 1 0 ]
+[s S22 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"307 D:/Program(x86)/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f887.h
+[u S31 . 1 `S22 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES31  1 e 1 @7 ]
+"352
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1238
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1245
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+"1540
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1602
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"2970
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2977
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"3909
+[v _GO_nDONE GO_nDONE `VEb  1 e 0 @249 ]
+"38 E:\PIC16F8xx\ADC.X\newmain.c
+[v _main main `(v  1 e 1 0 ]
+{
+"54
+} 0
+"41 E:\PIC16F8xx\ADC.X/lcd_8bit.h
+[v _lcd_string lcd_string `(v  1 e 1 0 ]
+{
+[v lcd_string@string_data string_data `*.24uc  1 a 1 wreg ]
+"42
+[v lcd_string@i i `i  1 a 2 2 ]
+"41
+[v lcd_string@string_data string_data `*.24uc  1 a 1 wreg ]
+[v lcd_string@string_data string_data `*.24uc  1 a 1 1 ]
+"46
+} 0
+"25
+[v _lcd_data lcd_data `(v  1 e 1 0 ]
+{
+[v lcd_data@Data Data `uc  1 a 1 wreg ]
+[v lcd_data@Data Data `uc  1 a 1 wreg ]
+[v lcd_data@Data Data `uc  1 a 1 0 ]
+"32
+} 0
+"71
+[v _lcd_setCursor lcd_setCursor `(v  1 e 1 0 ]
+{
+[v lcd_setCursor@x x `uc  1 a 1 wreg ]
+[v lcd_setCursor@x x `uc  1 a 1 wreg ]
+[v lcd_setCursor@y y `uc  1 p 1 1 ]
+"73
+[v lcd_setCursor@x x `uc  1 a 1 2 ]
+"83
+} 0
+"34
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"39
+} 0
+"16
+[v _lcd_command lcd_command `(v  1 e 1 0 ]
+{
+[v lcd_command@cmd cmd `uc  1 a 1 wreg ]
+[v lcd_command@cmd cmd `uc  1 a 1 wreg ]
+[v lcd_command@cmd cmd `uc  1 a 1 0 ]
+"23
+} 0
+"21 E:\PIC16F8xx\ADC.X\newmain.c
+[v _ADC_init ADC_init `(v  1 e 1 0 ]
+{
+"25
+} 0

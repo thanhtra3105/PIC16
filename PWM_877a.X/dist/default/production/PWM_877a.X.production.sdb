@@ -1,0 +1,184 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"16 E:\PIC16F8xx\PWM_877a.X\newmain.c
+[v _PWM_start PWM_start `(v  1 e 1 0 ]
+"33
+[v _PWM_setup PWM_setup `(v  1 e 1 0 ]
+"38
+[v _PWM PWM `(v  1 e 1 0 ]
+"55
+[v _main main `(v  1 e 1 0 ]
+[s S29 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"295 D:/Program(x86)/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h
+[u S38 . 1 `S29 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES38  1 e 1 @7 ]
+"1080
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @27 ]
+"1816
+[v _PR2 PR2 `VEuc  1 e 1 @146 ]
+"2474
+[v _CCP2M2 CCP2M2 `VEb  1 e 0 @234 ]
+"2477
+[v _CCP2M3 CCP2M3 `VEb  1 e 0 @235 ]
+"2480
+[v _CCP2X CCP2X `VEb  1 e 0 @237 ]
+"2483
+[v _CCP2Y CCP2Y `VEb  1 e 0 @236 ]
+"2876
+[v _T2CKPS0 T2CKPS0 `VEb  1 e 0 @144 ]
+"2879
+[v _T2CKPS1 T2CKPS1 `VEb  1 e 0 @145 ]
+"2906
+[v _TMR2ON TMR2ON `VEb  1 e 0 @146 ]
+"2966
+[v _TRISC1 TRISC1 `VEb  1 e 0 @1081 ]
+"14 E:\PIC16F8xx\PWM_877a.X\newmain.c
+[v _temp_freq temp_freq `i  1 e 2 0 ]
+"55
+[v _main main `(v  1 e 1 0 ]
+{
+"62
+} 0
+"16
+[v _PWM_start PWM_start `(v  1 e 1 0 ]
+{
+"31
+} 0
+"33
+[v _PWM_setup PWM_setup `(v  1 e 1 0 ]
+{
+[v PWM_setup@freq freq `l  1 p 4 6 ]
+"36
+} 0
+"38
+[v _PWM PWM `(v  1 e 1 0 ]
+{
+[v PWM@duty duty `ui  1 p 2 78 ]
+"53
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 12 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 11 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 6 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 10 ]
+"44
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 77 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 76 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 68 ]
+"70
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S369 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S374 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S377 . 4 `l 1 i 4 0 `d 1 f 4 0 `S369 1 fAsBytes 4 0 `S374 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S377  1 a 4 62 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 56 ]
+[s S446 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S449 . 2 `s 1 i 2 0 `us 1 n 2 0 `S446 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S449  1 a 2 66 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 61 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 60 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 55 ]
+"8
+[v ___flmul@b b `d  1 p 4 42 ]
+[v ___flmul@a a `d  1 p 4 46 ]
+"205
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `us  1 a 2 6 ]
+"5
+[v __Umul8_16@product product `us  1 a 2 4 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 0 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 8 ]
+"60
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 36 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 29 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 34 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 41 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 40 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 33 ]
+"8
+[v ___fldiv@a a `d  1 p 4 16 ]
+[v ___fldiv@b b `d  1 p 4 20 ]
+"185
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"10
+[v ___aldiv@quotient quotient `l  1 a 4 2 ]
+"11
+[v ___aldiv@sign sign `uc  1 a 1 1 ]
+[v ___aldiv@counter counter `uc  1 a 1 0 ]
+"5
+[v ___aldiv@divisor divisor `l  1 p 4 0 ]
+[v ___aldiv@dividend dividend `l  1 p 4 4 ]
+"41
+} 0
